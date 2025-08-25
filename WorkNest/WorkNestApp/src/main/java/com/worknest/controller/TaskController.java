@@ -84,7 +84,7 @@ public class TaskController {
             return "redirect:/tasks/view/" + slug;
         } catch (Exception e) {
             model.addAttribute("error", "Failed to create task: " + e.getMessage());
-            model.addAttribute("users", userDAO.findAll()); // ✅ Always reload users
+            model.addAttribute("users", userDAO.findAll()); // Always reload users
             return "task-form";
         }
     }
