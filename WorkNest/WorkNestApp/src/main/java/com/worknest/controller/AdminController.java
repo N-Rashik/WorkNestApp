@@ -20,7 +20,7 @@ public class AdminController {
 	 // DAO objects for database operations
     private final AdminDAO adminDAO = new AdminDAO();
     private final UserDAO userDAO = new UserDAO();
-    private final TaskDAO taskDAO = new TaskDAO();  // ✅ added
+    private final TaskDAO taskDAO = new TaskDAO();  
 
     @GetMapping("/login")
     public String showLogin() {
