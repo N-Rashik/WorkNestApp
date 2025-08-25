@@ -42,4 +42,5 @@ It provides a collaborative platform where **admins** can assign and track tasks
 ---
 
 **Author**
+
 **Rashik N**
