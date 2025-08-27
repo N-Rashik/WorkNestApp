@@ -66,18 +66,3 @@ It provides a collaborative platform for **admins** and **users** to efficiently
 
 **Rashik N**
 
-
-
-
-
-
-
-
-
-
-
-
-
-
----
-
