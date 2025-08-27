@@ -62,7 +62,7 @@ It provides a collaborative platform for **admins** and **users** to efficiently
 
 ---
 
-##Author
+## Author
 
 **Rashik N**
 
