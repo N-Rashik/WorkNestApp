@@ -1,46 +1,47 @@
 # WorkNest - Task Management Web Application  
 
-WorkNest is a **task management web application** built using **Java, Spring MVC, Hibernate, JSP, and MySQL**.  
-It provides a collaborative platform where **admins** can assign and track tasks, while **users** can manage their own tasks and provide progress updates with comments.  
+**WorkNest** is a task management web application developed using **Java, Spring MVC, Hibernate, JSP, and MySQL**.  
+It provides a collaborative platform for **admins** and **users** to efficiently assign, manage, and track tasks with real-time progress updates.  
 
 ---
 
-##  Features  
+## Features  
 
-###  Admin Features  
--  **Register / Login / Logout**  
--  **Manage Users**
--  **Assign Tasks** – With **start date** and **due date**  
--  **Track Tasks** – View task progress categorized as:  
+### Admin Features  
+- **Authentication**: Register, Login, Logout  
+- **User Management**: Add, update, delete, and view users  
+- **Task Assignment**:  
+  - Create tasks with title, description, start date, and due date  
+  - Assign tasks to specific users  
+- **Task Tracking**: Monitor task progress categorized as:  
   - Pending  
   - In Progress  
   - Completed  
   - Delayed  
-
+- **Dashboard**: Get an overview of all tasks and deadlines  
 
 ###  User Features  
--  **Register / Login / Logout**  
--  **View Assigned Tasks** – See tasks allocated by admin  
--  **Update Task Status** – Change task state (In Progress / Completed)  
--  **Add Comments** – Share updates, issues, or progress reports  
+- **Authentication**: Register, Login, Logout  
+- **View Tasks**: Access tasks assigned by the admin  
+- **Update Task Status**: Mark tasks as In Progress or Completed  
+- **Add Comments**: Share progress, issues, or updates related to tasks  
+
+---
+
+##  Key Highlights  
+- Separate **Admin** and **User** modules with role-based access  
+- Secure login with unique **email-based identification**  
+- **Clear deadlines** with start and due dates for each task  
+- **Collaborative environment** with comments and updates  
+
+---
+
+## Screenshots
+
+**Home Page of WorkNest App**
+<img width="845" height="474" alt="image" src="https://github.com/user-attachments/assets/e07520e6-7964-440a-a483-f309d300bdc5" />
+
 
 
 ---
 
-##  Key Points  
-
-1. Handles registration and login for both Admins and Users.
-2. Admin can add new users, edit user details, delete users, and view all users.
-3. Each user is uniquely identified by their email.
-4. Admin can create tasks with a title, description, start date, and due date.
-5. Tasks are assigned to specific users.
-6. Tasks are categorized by status (Pending, In Progress, Completed, Delayed).
-7. Admin can monitor all tasks in one dashboard.
-8. Provides clear visibility of task progress and deadlines.  
-
-
----
-
-**Author**
-
-**Rashik N**
